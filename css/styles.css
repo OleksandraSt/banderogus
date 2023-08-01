@@ -1,0 +1,330 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: #1B1D1F;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-page {
+    background: linear-gradient(271deg, #A5DEFF 1.14%, #FCFEFE 100%);
+}
+
+.wrapper {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
+.main-page-text-container {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 60px;
+}
+
+.main-page-description {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.main-page-title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.13;
+    margin-bottom: 24px;
+}
+
+.main-page-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.main-page-button {
+    background-color: #FF6B0A;
+    color: #fff;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.gus-main-page {
+    width: 50%;
+}
+
+.gus-facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.tryzub {
+    margin-bottom: 24px;
+}
+
+.gus-facts-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.gus-facts-description {
+    width: 772px;
+    margin: auto;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.gus-facts-item-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.gus-facts-item-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.form-section {
+    background: linear-gradient(271deg, #A5DEFF 1.14%, #FCFEFE 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 40px;
+    padding-top: 32px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    width: 573px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.form-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.form-field-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.form-field-input {
+    width: 453px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #005BBB;
+    background-color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.form-button {
+    background-color: #FF6B0A;
+    color: #fff;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 1170px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .main-page-title {
+        font-size: 44px;
+    }
+
+    .main-page-text-container {
+        padding: 20px;
+    }
+
+    .main-page-description {
+        margin-bottom: 20px;
+    }
+
+    .gus-facts-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .gus-main-page {
+        align-self: flex-end;
+    }
+
+    .main-page-text-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .gus-facts-description {
+        width: auto;
+    }
+
+    .main-page-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gus-main-page {
+        align-self: center;
+    }
+
+    .main-page-left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .main-page-text-container {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .form-container {
+        width: auto;
+        padding: 20px;
+    }
+
+    .form-field-input {
+        width: 350px;
+    }
+
+    .form-field {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    .form-field-input {
+        width: 280px;
+        height: 40px;
+    }
+
+    .gus-facts-title {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .gus-facts {
+        width: 100%;
+    }
+
+    .gus-facts-description {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gus-facts-image {
+        width: 100%;
+    }
+
+    .gus-main-page {
+        width: 100%;
+    }
+}
